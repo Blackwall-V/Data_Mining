@@ -63,7 +63,7 @@ This project analyzes the **REM 20 Indicators** — official monthly records fro
 | `INDICE_ROTACION` | Decimal | Patients per bed per period |
 | `LETALIDAD` | Decimal (%) | % of discharges resulting in death |
 
-> The dataset is **not included** in this repository. Download it from the official source above and place it at `data/indicadores_rem20_20260325.csv`.
+> The dataset is **included** in this repository. Download it from the official source above and place it at `data/indicadores_rem20_20260325.csv` if u want.
 
 ---
 
