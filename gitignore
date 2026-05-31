@@ -15,10 +15,6 @@ build/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data files (download separately from datos.gob.cl)
-data/
-*.csv
-
 # Trained models (regenerate by running the notebook)
 models/
 *.pkl
