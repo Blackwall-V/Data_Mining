@@ -1,5 +1,5 @@
-[![Open in nbviewer](https://img.shields.io/badge/nbviewer-view%20notebook-orange?logo=jupyter)](https://nbviewer.org/github/<Blackwall-V>/hospital-occupancy-rem20/blob/main/notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<Blackwall-V>/hospital-occupancy-rem20/main?filepath=notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
+[![Open in nbviewer](https://img.shields.io/badge/nbviewer-view%20notebook-orange?logo=jupyter)](https://nbviewer.org/github/Blackwall-V/Data_Mining/blob/main/notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Blackwall-V/Data_Mining/main?filepath=notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
 
 # Hospital Bed Occupancy Prediction — REM 20
 
