@@ -10,7 +10,7 @@ Predict the **Occupancy Index** (`INDICE_OCUPACIONAL`) of Chilean public hospita
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -64,7 +64,7 @@ This project analyzes the **REM 20 Indicators** — official monthly records fro
 | `INDICE_ROTACION` | Decimal | Patients per bed per period |
 | `LETALIDAD` | Decimal (%) | % of discharges resulting in death |
 
-> ⚠️ The dataset is **included** in this repository. Download it from the official source above and place it at `data/indicadores_rem20_20260325.csv` if u need it.
+> The dataset is **included** in this repository. Download it from the official source above and place it at `data/indicadores_rem20_20260325.csv` if u need it.
 
 ---
 
@@ -170,7 +170,7 @@ Supervised regression — the target `INDICE_OCUPACIONAL` is a continuous percen
 |-------|-------|
 | Linear Regression | Baseline — assumes linear relationships |
 | Decision Tree | `max_depth=10` — captures non-linearities, prone to overfitting |
-| **Random Forest** ⭐ | `n_estimators=100`, `max_depth=15` — best overall performance |
+| **Random Forest** | `n_estimators=100`, `max_depth=15` — best overall performance |
 
 Extended comparison (10% sample) also evaluated: Ridge, Lasso, ElasticNet, KNN, LinearSVR, Extra Trees, Gradient Boosting.
 
