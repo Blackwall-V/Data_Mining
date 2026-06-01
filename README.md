@@ -74,7 +74,7 @@ This project analyzes the **REM 20 Indicators** — official monthly records fro
 hospital-occupancy-rem20/
 │
 ├── data/
-│   └── indicadores_rem20_20260325.csv   # Download from datos.gob.cl (not in repo)
+│   └── indicadores_rem20_20260325.csv   # Download from datos.gob.cl (in repo)
 │
 ├── notebooks/
 │   └── Entrega_2_mineria_de_datos_Final.ipynb   # Main analysis notebook
