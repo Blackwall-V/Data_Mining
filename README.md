@@ -1,4 +1,7 @@
-# 🏥 Hospital Bed Occupancy Prediction — REM 20
+[![Open in nbviewer](https://img.shields.io/badge/nbviewer-view%20notebook-orange?logo=jupyter)](https://nbviewer.org/github/<Blackwall-V>/hospital-occupancy-rem20/blob/main/notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<Blackwall-V>/hospital-occupancy-rem20/main?filepath=notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
+
+# Hospital Bed Occupancy Prediction — REM 20
 
 > **Data Mining Project — Delivery 2**  
 > Section BIY7121-001D · Duoc UC · May 2026
@@ -61,7 +64,7 @@ This project analyzes the **REM 20 Indicators** — official monthly records fro
 | `INDICE_ROTACION` | Decimal | Patients per bed per period |
 | `LETALIDAD` | Decimal (%) | % of discharges resulting in death |
 
-> ⚠️ The dataset is **not included** in this repository. Download it from the official source above and place it at `data/indicadores_rem20_20260325.csv`.
+> ⚠️ The dataset is **included** in this repository. Download it from the official source above and place it at `data/indicadores_rem20_20260325.csv` if u need it.
 
 ---
 
