@@ -1,5 +1,5 @@
-[![Open in nbviewer](https://img.shields.io/badge/nbviewer-view%20notebook-orange?logo=jupyter)](https://nbviewer.org/github/<Blackwall-V>/hospital-occupancy-rem20/blob/main/notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<Blackwall-V>/hospital-occupancy-rem20/main?filepath=notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
+[![Open in nbviewer](https://img.shields.io/badge/nbviewer-view%20notebook-orange?logo=jupyter)](https://nbviewer.org/github/Blackwall-V/Data_Mining/blob/main/notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Blackwall-V/Data_Mining/main?filepath=notebooks/Entrega_2_mineria_de_datos_Final.ipynb)
 
 # Hospital Bed Occupancy Prediction — REM 20
 
@@ -10,7 +10,7 @@ Predict the **Occupancy Index** (`INDICE_OCUPACIONAL`) of Chilean public hospita
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -64,7 +64,7 @@ This project analyzes the **REM 20 Indicators** — official monthly records fro
 | `INDICE_ROTACION` | Decimal | Patients per bed per period |
 | `LETALIDAD` | Decimal (%) | % of discharges resulting in death |
 
-> ⚠️ The dataset is **included** in this repository. Download it from the official source above and place it at `data/indicadores_rem20_20260325.csv` if u need it.
+> The dataset is **included** in this repository. Download it from the official source above and place it at `data/indicadores_rem20_20260325.csv` if u need it.
 
 ---
 
@@ -74,7 +74,7 @@ This project analyzes the **REM 20 Indicators** — official monthly records fro
 hospital-occupancy-rem20/
 │
 ├── data/
-│   └── indicadores_rem20_20260325.csv   # Download from datos.gob.cl (not in repo)
+│   └── indicadores_rem20_20260325.csv   # Download from datos.gob.cl (in repo)
 │
 ├── notebooks/
 │   └── Entrega_2_mineria_de_datos_Final.ipynb   # Main analysis notebook
@@ -170,7 +170,7 @@ Supervised regression — the target `INDICE_OCUPACIONAL` is a continuous percen
 |-------|-------|
 | Linear Regression | Baseline — assumes linear relationships |
 | Decision Tree | `max_depth=10` — captures non-linearities, prone to overfitting |
-| **Random Forest** ⭐ | `n_estimators=100`, `max_depth=15` — best overall performance |
+| **Random Forest** | `n_estimators=100`, `max_depth=15` — best overall performance |
 
 Extended comparison (10% sample) also evaluated: Ridge, Lasso, ElasticNet, KNN, LinearSVR, Extra Trees, Gradient Boosting.
 
